@@ -1,0 +1,64 @@
+[
+  {
+    "listaActores": [
+      {
+        "nombre": "Hanibal"
+      },
+      {
+        "nombre": "Lecter"
+      }
+    ],
+    "fecha":"2020-12-12",
+    "tituloPeli": "Hanibal",
+    "ratingPeli": 10
+  },
+  {
+    "listaActores": [
+      {
+        "nombre": "Stich"
+      },
+      {
+        "nombre": "Familia"
+      },
+      {
+        "nombre": "El bicho de un ojo"
+      }
+    ],
+    "fecha":"2000-12-12",
+    "tituloPeli": "Stich",
+    "ratingPeli": 7
+  },
+  {
+    "listaActores": [
+      {
+        "nombre": "pinguino1"
+      },
+      {
+        "nombre": "pinguino2"
+      },
+      {
+        "nombre": "pinguino3"
+      },
+      {
+        "nombre": "pinguino4"
+      }
+
+    ],
+    "fecha":"2007-12-12",
+    "tituloPeli": "PINGUINOS",
+    "ratingPeli": 5
+  },
+  {
+    "listaActores": [
+      {
+        "nombre": "RAYO MCQUEEN"
+      },
+      {
+        "nombre": "FRANCISCO VIRGOLINNI"
+      }
+    ],
+    "fecha":"1999-12-12",
+    "tituloPeli": "CARS 2",
+    "ratingPeli": 9
+  }
+]

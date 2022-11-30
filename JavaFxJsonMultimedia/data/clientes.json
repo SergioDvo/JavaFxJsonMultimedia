@@ -1,0 +1,14 @@
+{
+  "12": {
+    "nombre": "sergio",
+    "email": "12"
+  },
+  "123": {
+    "nombre": "sergio",
+    "email": "123"
+  },
+  "admin": {
+    "nombre": "admin",
+    "email": "admin"
+  }
+}

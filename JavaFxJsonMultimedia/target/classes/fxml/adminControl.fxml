@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.adminControl.AdminControlController">
+   <children>
+      <TableView fx:id="tablaSerie" onMouseClicked="#getListaEpisodios" layoutX="31.0" layoutY="60.0" prefHeight="200.0" prefWidth="489.0">
+        <columns>
+          <TableColumn fx:id="nombreSerieColum" prefWidth="391.0" text="Titulo" />
+            <TableColumn fx:id="ratingSerieColum" prefWidth="97.0" text="Rating" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tablaActor" layoutX="31.0" layoutY="330.0" prefHeight="200.0" prefWidth="489.0">
+        <columns>
+          <TableColumn fx:id="nombreActorColum" prefWidth="485.0" text="NombreActor" />
+        </columns>
+      </TableView>
+      <MFXTextField fx:id="txtnombreSerie" layoutX="121.0" layoutY="11.0" prefHeight="49.0" prefWidth="119.0" />
+      <MFXTextField fx:id="txtratingSerie" layoutX="315.0" layoutY="11.0" prefHeight="49.0" prefWidth="110.0" />
+      <MFXTextField fx:id="txtnombreActor" layoutX="163.0" layoutY="273.0" prefHeight="49.0" prefWidth="151.0" />
+      <Label layoutX="31.0" layoutY="14.0" prefHeight="39.0" prefWidth="75.0" text="Nombre" />
+      <Label layoutX="247.0" layoutY="16.0" prefHeight="39.0" prefWidth="75.0" text="Rating" />
+      <Label layoutX="100.0" layoutY="278.0" prefHeight="39.0" prefWidth="69.0" text="Nombre" />
+      <Label layoutX="315.0" layoutY="273.0" prefHeight="49.0" prefWidth="128.0" text="ACTORES">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="434.0" layoutY="9.0" prefHeight="49.0" prefWidth="128.0" text="SERIES">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tablaEpisodio" onMouseClicked="#getListaActores" layoutX="543.0" layoutY="188.0" prefHeight="200.0" prefWidth="407.0">
+         <columns>
+            <TableColumn fx:id="nombreEpisodioColum" prefWidth="537.0" text="NombreEpisodio" />
+         </columns>
+      </TableView>
+      <Label layoutX="822.0" layoutY="136.0" prefHeight="49.0" prefWidth="128.0" text="EPISODIO">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <MFXTextField fx:id="txtNombreEpisodio" layoutX="691.0" layoutY="136.0" prefHeight="49.0" prefWidth="119.0" />
+      <Label layoutX="622.0" layoutY="141.0" prefHeight="39.0" prefWidth="69.0" text="Nombre" />
+      <MFXButton buttonType="RAISED" layoutX="543.0" layoutY="14.0" mnemonicParsing="false" onAction="#añadirSerie" prefHeight="39.0" prefWidth="95.0" text="Añadir Serie" />
+      <MFXButton buttonType="RAISED" layoutX="414.0" layoutY="278.0" mnemonicParsing="false" onAction="#añadirActor" prefHeight="39.0" prefWidth="119.0" text="Añadir Actor" />
+      <MFXButton buttonType="RAISED" layoutX="810.0" layoutY="97.0" mnemonicParsing="false" onAction="#añadirEpisodio" prefHeight="39.0" prefWidth="119.0" text="Añadir Episodio" />
+   </children>
+</AnchorPane>

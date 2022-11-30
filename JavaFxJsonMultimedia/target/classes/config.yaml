@@ -1,0 +1,3 @@
+listaClientes: data/clientes.json
+listaPelis: data/pelis.json
+listaSeries: data/series.json
